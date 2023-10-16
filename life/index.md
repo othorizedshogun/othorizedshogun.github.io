@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Life
 description: Thoughts about the researcher and developer life
@@ -19,4 +19,4 @@ reflect those of my institution or affiliation.
     </li>
   {% endif %}
   {% endfor %}
-</ul>
+</ul> -->
