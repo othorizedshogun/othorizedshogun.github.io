@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Research work
 description: Research work of Lester James V. Miranda
@@ -35,4 +35,4 @@ University](https://www.waseda.jp/top/en/). Most of these are unpublished semina
 
 - [Applying Reinforcement Learning to the Protein Folding Problem](https://www.dropbox.com/s/h4f5ybkn2bhssu7/lab2018applying.pdf?dl=0) _Laboratory Seminar Presentation_, April 2018.
 - [Selective Feature Extraction via a Mutually-Competitive Autoencoder for Protein Function Prediction](https://www.dropbox.com/s/zh7d5z3jb5tiijv/midterms-handouts.pdf?dl=0) _Midterm Defense Presentation_, April 2018.
-- [Feature Extraction using a Stacked Denoising Autoencoder for Protein Function Prediction](https://www.dropbox.com/s/dq21pwd67mu4u5z/isips2017feature.pdf?dl=0) _11th International Collaboration Symposium on Information, Production, and Systems_, November 2017.
+- [Feature Extraction using a Stacked Denoising Autoencoder for Protein Function Prediction](https://www.dropbox.com/s/dq21pwd67mu4u5z/isips2017feature.pdf?dl=0) _11th International Collaboration Symposium on Information, Production, and Systems_, November 2017. -->
