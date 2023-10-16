@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-description: Projects of Lester James V. Miranda
+description: otho's constructs
 permalink: /projects/
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-description: Notes of Lester James V. Miranda
+description: ravings of a mad man i tell you
 permalink: /blog/
 ---
 
