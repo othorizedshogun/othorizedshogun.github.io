@@ -32,7 +32,7 @@ Here, you will receive:
 
 * **Will you migrate your content to Substack?** Nope! I love the homegrown
  feel of my blog so I will always keep my content [free and open
- source](https://github.com/ljvmiranda921/ljvmiranda921.github.io). I tried
+ source](https://github.com/othorizedshogun/othorizedshogun.github.io). I tried
  Mailchimp but it's complicated. I checked tinyletter but it's not being
  updated. Substack is simple and clean. I'll only use Substack as a newsletter,
  and I'll still keep writing content here.

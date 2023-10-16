@@ -49,7 +49,7 @@ be an exciting space, so I made a lot of notes about it!
 
 I'm a hobbyist game dev and I love creating games. I am also a fan of
 the Godot Engine and Pico-8. Play my games by visiting my [**itch.io
-page**](https://ljvmiranda921.itch.io).
+page**](https://othorizedshogun.itch.io).
 
 - [What are Nodes and Scenes in Godot? A cooking perspective](/notebook/2021/04/19/godot-nodes-and-scenes/)
 - [Study notes on Pico-8 movement](/notebook/2021/01/31/pico8-offset/)

@@ -11,21 +11,21 @@ tags: [nlp, language technology, natural language processing, tagalog, low resou
 header-img: /assets/png/calamancy/header.png
 description: |
     I am excited to introduce calamanCy, an open-source toolkit for constructing natural language processing pipelines for Tagalog.
-    Read this blog post to learn more! You can also find calamanCy on Github: https://github.com/ljvmiranda921/calamanCy
+    Read this blog post to learn more! You can also find calamanCy on Github: https://github.com/othorizedshogun/calamanCy
 excerpt: |
     I am excited to introduce calamanCy, an open-source toolkit for constructing natural language processing pipelines for Tagalog.
-    Read this blog post to learn more! You can also find calamanCy on Github: https://github.com/ljvmiranda921/calamanCy
+    Read this blog post to learn more! You can also find calamanCy on Github: https://github.com/othorizedshogun/calamanCy
 ---
 
-<a href="https://github.com/ljvmiranda921/calamanCy"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+<a href="https://github.com/othorizedshogun/calamanCy"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
 
-<img src="https://raw.githubusercontent.com/ljvmiranda921/calamanCy/master/logo.png" width="120" height="120" align="right" />
+<img src="https://raw.githubusercontent.com/othorizedshogun/calamanCy/master/logo.png" width="120" height="120" align="right" />
 
 
-<span class="firstcharacter">I</span> am excited to introduce [**calamanCy**](https://github.com/ljvmiranda921/calamanCy), an open-source toolkit for constructing natural language processing (NLP) pipelines for Tagalog.
+<span class="firstcharacter">I</span> am excited to introduce [**calamanCy**](https://github.com/othorizedshogun/calamanCy), an open-source toolkit for constructing natural language processing (NLP) pipelines for Tagalog.
 It is built on top of [spaCy](https://spacy.io) to ensure easy experimentation and integration with other frameworks.
 It provides general-purpose multitask models with out-of-the-box support for dependency parsing, part-of-speech (POS) tagging, and named entity recognition (NER).
-The repository is available [on Github](https://github.com/ljvmiranda921/calamanCy), and you can install the package via `pip`:
+The repository is available [on Github](https://github.com/othorizedshogun/calamanCy), and you can install the package via `pip`:
 
 ```
 pip install calamancy
@@ -84,9 +84,9 @@ Each pipeline provides out-of-the-box support for core NLP tasks:
 
 | Pipeline                                      | Pretraining objective                                                  | Word embeddings                                       | Dimensions                                         |
 |-----------------------------------------------|------------------------------------------------------------------------|-------------------------------------------------------|----------------------------------------------------|
-| Medium-sized pipeline ([tl_calamancy_md](https://huggingface.co/ljvmiranda921/tl_calamancy_md))       | Predict some number of leading and trailing UTF-8 bytes for the words. | Uses [floret](https://github.com/explosion/floret) static vectors trained on the TLUnified corpora. | 50k unique vectors (200 dimensions), Size: 77 MB   |
-| Large-sized pipeline ([tl_calamancy_lg](https://huggingface.co/ljvmiranda921/tl_calamancy_lg))        | Same pretraining objective as the medium-sized pipeline.               | Uses [fastText](https://fasttext.cc) static vectors trained on CommonCrawl corpora. | 714k unique vectors (300 dimensions), Size: 455 MB |
-| Transformer-based pipeline ([tl_calamancy_trf](https://huggingface.co/ljvmiranda921/tl_calamancy_trf)) | No separate pretraining because there's no token-to-vector component.  | Context-sensitive vectors from a transformer network. | Uses roberta-tagalog-base. Size: 813 MB            |
+| Medium-sized pipeline ([tl_calamancy_md](https://huggingface.co/othorizedshogun/tl_calamancy_md))       | Predict some number of leading and trailing UTF-8 bytes for the words. | Uses [floret](https://github.com/explosion/floret) static vectors trained on the TLUnified corpora. | 50k unique vectors (200 dimensions), Size: 77 MB   |
+| Large-sized pipeline ([tl_calamancy_lg](https://huggingface.co/othorizedshogun/tl_calamancy_lg))        | Same pretraining objective as the medium-sized pipeline.               | Uses [fastText](https://fasttext.cc) static vectors trained on CommonCrawl corpora. | 714k unique vectors (300 dimensions), Size: 455 MB |
+| Transformer-based pipeline ([tl_calamancy_trf](https://huggingface.co/othorizedshogun/tl_calamancy_trf)) | No separate pretraining because there's no token-to-vector component.  | Context-sensitive vectors from a transformer network. | Uses roberta-tagalog-base. Size: 813 MB            |
 
 - **Pretraining objective**: involves learning vectors from raw text to better
 inform our [token-to-vector](https://spacy.io/api/tok2vec) model. This process
@@ -101,9 +101,9 @@ statistical model. On the other hand, word embeddings from a transformer involve
 
 The training process involves pretraining a filtered version of TLUnified ([Cruz and Cheng, 2021](#cruz2021tlunified)), constructing static word embeddings if necessary, and training the downstream components. 
 Each pipeline contains a [`Tagger`](https://spacy.io/api/tagger), [`DependencyParser`](https://spacy.io/api/dependencyparser), [`Morphologizer`](https://spacy.io/api/morphologizer), and [`EntityRecognizer`](https://spacy.io/api/entityregognizer) spaCy components.
-These models are also available on [HuggingFace 🤗](https://huggingface.co/ljvmiranda921).
+These models are also available on [HuggingFace 🤗](https://huggingface.co/othorizedshogun).
 
-You can reproduce the whole training procedure by running the [corresponding spaCy project on Github](https://github.com/ljvmiranda921/calamanCy/tree/master/models/v0.1.0).
+You can reproduce the whole training procedure by running the [corresponding spaCy project on Github](https://github.com/othorizedshogun/calamanCy/tree/master/models/v0.1.0).
 Finally, you can find a list of data sources in the table below:
 
 | Source                                                                                 | Authors                                          | License         |
@@ -129,15 +129,15 @@ Before calamanCy, you usually have two options if you want to build a pipeline f
 For text categorization and NER, I ran the experiments for five trials and reported their average and standard deviation.
 For dependency parsing and POS tagging, I used 10-fold cross-validation because the combined UD treebank is still too small.
 
-The results show that our calamanCy pipelines are competitive (you can reproduce the results by following this [spaCy project](https://github.com/ljvmiranda921/calamanCy/tree/master/paper/benchmark)):
+The results show that our calamanCy pipelines are competitive (you can reproduce the results by following this [spaCy project](https://github.com/othorizedshogun/calamanCy/tree/master/paper/benchmark)):
 
 <!-- insert results here -->
 
 | Language Pipeline      | Binary textcat (Hatespeech) | Multilabel textcat (Dengue)  | NER (TLUnified-NER)  | Dependency parsing, UAS (Merged UD) | Dependency parsing, LAS (Merged UD) |
 |------------------------|---------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------|-------------------------------------|-------------------------------------|
-| [tl_calamancy_md](https://huggingface.co/ljvmiranda921/tl_calamancy_md)        | $$74.40 (0.05)$$                                            | $$65.32 (0.04)$$                                             | $$87.67 (0.03)$$                                        | $$76.47$$                               | $$54.40$$                               |
-| [tl_calamancy_lg](https://huggingface.co/ljvmiranda921/tl_calamancy_lg)        | $$75.62 (0.02)$$                                            | $$68.42 (0.01)$$                                             | $$88.90 (0.01)$$                                        | $$82.13$$                               | $$70.32$$                               |
-| [tl_calamancy_trf](https://huggingface.co/ljvmiranda921/tl_calamancy_trf)       | $$78.25 (0.06)$$                                            | $$72.45 (0.02)$$                                             | $$90.34 (0.02)$$                                        | $$92.48$$                               | $$80.90$$                               |
+| [tl_calamancy_md](https://huggingface.co/othorizedshogun/tl_calamancy_md)        | $$74.40 (0.05)$$                                            | $$65.32 (0.04)$$                                             | $$87.67 (0.03)$$                                        | $$76.47$$                               | $$54.40$$                               |
+| [tl_calamancy_lg](https://huggingface.co/othorizedshogun/tl_calamancy_lg)        | $$75.62 (0.02)$$                                            | $$68.42 (0.01)$$                                             | $$88.90 (0.01)$$                                        | $$82.13$$                               | $$70.32$$                               |
+| [tl_calamancy_trf](https://huggingface.co/othorizedshogun/tl_calamancy_trf)       | $$78.25 (0.06)$$                                            | $$72.45 (0.02)$$                                             | $$90.34 (0.02)$$                                        | $$92.48$$                               | $$80.90$$                               |
 
 We also evaluated cross-lingual and multilingual approaches in our benchmarks: 
 - **Cross-lingual**: we chose the source languages using a WALS-reliant metric (Agic, 2017) to choose the linguistically-closest languages to Tagalog and looked for their corresponding spaCy pipelines. 
@@ -180,7 +180,7 @@ corpora myself, I'm still thinking of ways to get around that. If you have any i
 - **What's the design decision for only including X component?** I want to make calamanCy as general-purpose as possible yet flexible enough to be finetuned on specific tasks.
 That's why we have to train a new component for text categorization. All of the official spaCy pipelines also follow this architecture.
 
-If you have any questions, feel free to reach out on [Github](https://github.com/ljvmiranda921/calamanCy/) or my [email](mailto:ljvmiranda@gmail.com)!
+If you have any questions, feel free to reach out on [Github](https://github.com/othorizedshogun/calamanCy/) or my [email](mailto:ljvmiranda@gmail.com)!
 
 
 ## References

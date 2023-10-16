@@ -51,8 +51,8 @@ University](https://www.ateneo.edu). My research interests include machine
 learning systems design and natural language processing. 
 
 Lastly, I'm well-involved in open-source and have authored [several
-projects](https://github.com/ljvmiranda921) of my own.
-[Pyswarms](https://github.com/ljvmiranda921/pyswarms) has been quite
+projects](https://github.com/othorizedshogun) of my own.
+[Pyswarms](https://github.com/othorizedshogun/pyswarms) has been quite
 successful; I've seen it being used in [quantum
 physics](https://arxiv.org/abs/1801.07686),
 [chemistry](https://pubs.acs.org/doi/abs/10.1021/acscentsci.8b00307), and
@@ -60,7 +60,7 @@ physics](https://arxiv.org/abs/1801.07686),
 [other
 things](https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15267041073198929167).
 I love indie games and [dabble in game
-development](https://ljvmiranda921.itch.io) using [Pico-8](https://www.lexaloffle.com/pico-8.php) and
+development](https://othorizedshogun.itch.io) using [Pico-8](https://www.lexaloffle.com/pico-8.php) and
 [Godot](https://godotengine.org/). -->
 
 <!-- <p style="border:3px; border-style:solid; border-color:#0000FF; padding: 1em;">

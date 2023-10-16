@@ -25,7 +25,7 @@ Philippines, and being able to solve one Filipino language at a time would be
 nice.
 
 Right now, I'm working on
-[calamanCy](https://github.com/ljvmiranda921/calamanCy), my attempt to create
+[calamanCy](https://github.com/othorizedshogun/calamanCy), my attempt to create
 spaCy pipelines for Tagalog. Its name is based on kalamansi, a citrus fruit
 common in the Philippines. Unfortunately, it's something that I've been working
 on in my spare time, so progress is slower than usual! This blog post contains
