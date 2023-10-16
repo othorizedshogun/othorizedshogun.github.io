@@ -5,7 +5,7 @@ description: Get a monthly newsletter straight to your inbox!
 permalink: /subscribe/
 ---
 
-Hi friends, I started a *monthly* newsletter&mdash; [**the Purveyor of Curiosities!**](https://ljvmiranda.substack.com/)
+<!-- Hi friends, I started a *monthly* newsletter&mdash; [**the Purveyor of Curiosities!**](https://ljvmiranda.substack.com/)
 
 Here, you will receive:
 
@@ -41,7 +41,7 @@ Here, you will receive:
     the pace slow for a bit so that I can give you high-quality content. In
     the event that I decided to increase the frequency (i.e., monthly to
     biweekly), then I'll let you know so you can decide to keep your
-    subscription.
+    subscription. -->
 
 
 
