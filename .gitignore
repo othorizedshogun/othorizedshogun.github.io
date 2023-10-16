@@ -10,6 +10,7 @@
 .sass-cache
 /vendor
 Gemfile.lock
+setup_process.txt
 _site
 bin/
 bbin/
