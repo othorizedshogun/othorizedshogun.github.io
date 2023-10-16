@@ -24,7 +24,9 @@ and this site records my progress.  -->
 development, machine learning, and research. I hope you'll spend a nice time
 here, so go grab yourself a coffee and feel free to look around!  -->
 
-The path for the uninitiated lies [here](/start-here/)!
+Even so, do not presume to know me; I am simply abstruse.
+
+[Herein](/blog/) lies the path, guiding both the uninitiated and the enlightened alike!
 
 ## Background
 
@@ -61,7 +63,7 @@ I love indie games and [dabble in game
 development](https://ljvmiranda921.itch.io) using [Pico-8](https://www.lexaloffle.com/pico-8.php) and
 [Godot](https://godotengine.org/). -->
 
-<!-- <p style="border:3px; border-style:solid; border-color:#a00000; padding: 1em;">
+<!-- <p style="border:3px; border-style:solid; border-color:#0000FF; padding: 1em;">
 <b>Short background</b><br>
 Lj Miranda specializes in natural language processing with over five years of
 experience in consulting, open-source development, and research. He has

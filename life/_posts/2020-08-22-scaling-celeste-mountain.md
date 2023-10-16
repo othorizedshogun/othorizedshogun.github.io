@@ -1,6 +1,6 @@
 ---
 layout: post
-type: post
+# type: post
 title: "Scaling Celeste Mountain"
 date: 2020-08-22
 category: life

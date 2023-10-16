@@ -1,6 +1,6 @@
 ---
 layout: post
-type: post
+# type: post
 title: "calamanCy: NLP pipelines for Tagalog"
 date: 2023-08-01
 category: projects

@@ -1,14 +1,23 @@
 ---
 layout: post
-title: "Solving the travelling salesman problem using ant colony optimization"
-date: 2017-01-18
-category: notebook
+type: post
+title: "Deep learning with fast ai, identifying neo-expressionism in paintings"
+date: 2023-08-04
+category: blog
 comments: true
-author: "LJ MIRANDA"
-description: "Solution for the berlin52 travelling salesman problem using ant colony optimization"
+author: "othorizedshogun"
+published: true
+tags: [nlp, tagalog, low-resource languages, prodigy, natural language processing, machine learning]
+header-img: /assets/png/calamancy-llm/header.png
+description: |
+    Allow me to re-introduce myself, my name is...
+excerpt: |
+    Allow me to re-introduce myself, my name is....
 ---
 
-This is an implementation of the Ant Colony Optimization to solve the
+Ramblings...
+
+<!-- This is an implementation of the Ant Colony Optimization to solve the
 Traveling Salesman Problem. In this project, the `berlin52` dataset that maps
 52 different points in Berlin, Germany was used.
 
@@ -115,4 +124,4 @@ first implemented to construct the initial tour.
 - <a id="engelbrecht2007computational">Engelbrecht, Andres</a> (2007). *Computational Intelligence: An Introduction*, John Wiley & Sons.
 - <a id="dorigo1992optimization">Dorigo, Marco</a> (1992). *Optimization, Learning, and Natural Algorithms*, PhD Thesis, Politecnico di Milano.
 
-You can access the gist [here.](https://gist.github.com/ljvmiranda921/ca93059bc213531fd99af22955b6bf5f)
+You can access the gist [here.](https://gist.github.com/ljvmiranda921/ca93059bc213531fd99af22955b6bf5f) -->

@@ -54,14 +54,15 @@
       "path": "[[workspace]]/projects/_posts"
     },
     {
-      "title": "notebook",
-      "path": "[[workspace]]/notebook/_posts"
+      "title": "blog",
+      "path": "[[workspace]]/blog/_posts"
     }
   ],
   "frontMatter.taxonomy.tags": [
     "8-bit",
     "bastion",
     "bioinformatics",
+    "blog",
     "celeste",
     "cellular automata",
     "chainer",
