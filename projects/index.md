@@ -36,7 +36,7 @@ The power of FastAI, PyTorch and ResNet18 with this deep learning neural network
 
 
 **AI startup writing assistant**  
-I developed an AI writing assistant that leverages OpenAI's GPT-3 model to generate high-quality writing for emails, social media posts, and memos, streamlining communication and boosting productivity.
+Developed an AI writing assistant that leverages OpenAI's GPT-3 model to generate high-quality writing for emails, social media posts, and memos, streamlining communication and boosting productivity.
 
 ![Python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=)
 ![OpenAI](https://img.shields.io/static/v1?style=for-the-badge&message=OpenAI&color=412991&logo=OpenAI&logoColor=FFFFFF&label=)
@@ -58,7 +58,7 @@ A data-driven project that uses Tableau to create an interactive and informative
 
 
 **Predicting House Prices using Machine Learning**  
-technical mastery in data cleaning, exploratory data analysis, and feature engineering by implementing several machine learning algorithms using Python libraries like Pandas, NumPy, and ScikitLearn, culminating in a real-time prediction Flask API endpoint that showcases my end-to-end ability
+Showed technical mastery in data cleaning, exploratory data analysis, and feature engineering by implementing several machine learning algorithms using Python libraries like Pandas, NumPy, and ScikitLearn, culminating in a real-time prediction Flask API endpoint that showcases my end-to-end ability
 
 ![python](https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label=)
 ![NumPy](https://img.shields.io/static/v1?style=for-the-badge&message=NumPy&color=013243&logo=NumPy&logoColor=FFFFFF&label=)
@@ -80,9 +80,9 @@ Scraped and cleaned data from Wikipedia on the NBA draft to analyze the diversit
 
 
 **Bike-share User Analytics Case Study**  
-To help in creating a new marketing strategy to help convert casual users to subscribers, I analyzed a year’s worth of data
-on a fictional bike-share company - Cyclistic, with SQL on a PostgreSQL database to understand the differences and
-similarities in the behaviour of user types.
+To facilitate the development of an effective marketing strategy aimed at converting casual users into subscribers, I conducted an
+in-depth analysis of one year's worth of data from a fictional bike-share company, Cyclistic. Using SQL on a PostgreSQL database, 
+I sought to comprehend the distinctions and similarities in the behavior patterns among different user types.
 
 ![PostgresSQL](https://img.shields.io/static/v1?style=for-the-badge&message=PostgreSQL&color=4169E1&logo=PostgreSQL&logoColor=FFFFFF&label=)
 
@@ -90,7 +90,7 @@ similarities in the behaviour of user types.
 
 
 **World Happiness Report: Regional Health Analytics**  
-This project utilizes data from the World Happiness Report to provide insights on the relationship between happiness and health at the regional level. This data-driven analysis sheds light on the factors that contribute to the happiness and well-being of people in different regions, informing public health policies and initiatives.
+Utilized data from the World Happiness Report to provide insights on the relationship between happiness and health at the regional level. This data-driven analysis sheds light on the factors that contribute to the happiness and well-being of people in different regions, informing public health policies and initiatives.
 
 {{< image src="/img/projects_2-copy.png" alt="Correlation map" style="width: 85%;" >}}
 {{< image src="/img/projects_5.png" alt="Chart 1" style="width: 85%;" >}}

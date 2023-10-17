@@ -10,7 +10,7 @@ permalink: /about/
 <!-- I [build things](https://github.com/othorizedshogun). -->
 
 Some days, I find myself navigating an endless brain maze, wading through
-the vast corpus I've been exposed to throughout my life, striving to push out reified
+the vast corpus I've been exposed to all my life, striving to push out reified
 expressions. On other occassions, I'm immersed in passionate conversations with friends. Then
 there are days like today, where I'm here, conveying thougths as much as the pen will allow,
 hoping you gain my insights, perhaps a universe more if your mind permits.
@@ -30,8 +30,8 @@ Even so, do not presume to know me; I am simply abstruse.
 
 ## Background
 
-I'm handle all things data at [Credit Cliq](https://creditcliq.com). I handle analytics, research 
-and development of models for the african credit finance space.
+I handle all things data at [Credit Cliq](https://creditcliq.com), overseeing analytics, research, and the
+development of models within the African credit finance sector.
 
 <!-- Previously, I've worked at:
 * [Thinking Machines Data Science](https://thinkingmachin.es) (Manila): a data 
