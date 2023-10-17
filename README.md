@@ -4,7 +4,8 @@
 
 This is the source code for my [blog](https://othorizedshogun.github.io). It's a
 static website powered by [Jekyll](https://jekyllrb.com/) with site analytics
-done via [plausible.io](https://plausible.io/othorizedshogun.github.io) (private,
+done via Google Analytics
+[plausible.io](https://plausible.io/othorizedshogun.github.io) (private,
 cookie-free and open source).
 
 ## Set-up
