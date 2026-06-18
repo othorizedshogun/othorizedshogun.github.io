@@ -22,3 +22,7 @@ tmp/*
 
 *:Zone.Identifier
 *dropbox.attrs
+# env files (restored by security fix)
+.env
+.env.*
+!.env.example
